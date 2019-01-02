@@ -1,0 +1,83 @@
+YRmisc package News:
+
+==================================================
+YRmisc 0.1.3
+==================================================
+2019-Jan-02
+
+Happy New Year!
+
+Changing package name to {YRmisc}: Yin & Russon Miscellaneous R Functions
+
+New Functions:
+
+pkg.save: save installed packages before updating R
+pkg.install: install pre-save packages from pkg.save() after updating R
+pl.histgg: histograms for a data frame with ggplot2
+pl.sgg: scatter plots for a data frame with ggplot2
+pl.smgg: scatter plots with smooth line for a data frame with ggplot2
+pl.tsgg: time series plots for a data frame with ggplot2
+pl.2tsgg: two time series with ggplot2
+pl.3txtgg: scatter plot with text overlay using ggplot2
+pl.3smoothtxtgg: scatter plot with text overlay and smooth line using ggplot2
+xd.fred.tickers: output a data frame with information of FRED variables
+
+Improvements:
+
+xd.fred: now the function can take more than one ticker and output a merged data frame with all observations
+
+Bug fixes:
+
+text fixes
+
+removed pl.multiple - plotting arrangement has switched to using {gridExtra}
+
+==================================================
+PMmisc 0.1.2
+==================================================
+2018-Nov-22
+
+Happy Thanks Giving!
+
+Bug fixes:
+
+  Fixed df.sort not working due to a coding error
+  Fixed pl.s having wrong title generated
+  Fixed pl.sm having wrong title generated
+
+New Functions:
+
+cv.powers to generate new varibables
+cv.logs to generate new varibables
+cv.axp to generate new varibables
+-------------------------------------------------
+reg.linreg now is with optimized coding, runs 99% faster
+reg.r.suqred for reg.linreg result generation
+reg.adjr.suqred for reg.linreg result generation
+reg.aic for reg.linreg result generation
+reg.bic for reg.linreg result generation
+reg.dof for reg.linreg result generation
+reg.std.err for reg.linreg result generation
+reg.dw for reg.linreg result generation
+*Note: All the test statistics add as functions are to improve reg.linreg efficiency for large number of model calculations.
+-------------------------------------------------
+pl.histgg for batch graph generation with ggplot2
+*Note: This is a test to convert most pl.* functions from base graph to ggplot2. However, the current version runs very slow.
+
+==================================================
+PMmisc 0.1.1
+==================================================
+2018-Jul-17
+
+Added package NEWS File.
+
+Updated some examples with more details.
+
+Applied a new naming method.
+
+Added new 14 functions.
+
+==================================================
+PMmisc 0.1.0
+==================================================
+First Version 2018-May-04
