@@ -1,6 +1,36 @@
 YRmisc package News:
 
 ==================================================
+YRmisc 0.1.4
+==================================================
+2019-Apr-15
+
+New Functions:
+
+# all new functions for this version are for portfolio management
+pt.annrtn: calculate annualized return from annual returns
+pt.udrtn: average up and down returns
+pt.alpha: calculate asset alpha
+pt.beta: calculate asset beta
+pt.annexrtn: annualized excessive return
+pt.annsd: annualized standard deviation
+pt.btavg: batting average
+pt.cmrtn: cumulative return
+pt.cmexrtn: cumulative excess return
+pt.probloss: probability of loss with target
+pt.exploss: expected loss with target
+pt.semivar: semivariance of returns with target
+pt.info: calculate information ratio
+pt.sharp: calculate sharp ratio
+pt.sortino: calculate sortino ratio
+pt.treynor: calculate treynor ratio
+pt.sdexret: standard deviation of excess return
+pt.updwcap: up and down capture
+pt.jalpha: Jensen's alpha
+pt.te: tracking error
+pt.m2: modigliani risk-adjusted performance
+
+==================================================
 YRmisc 0.1.3
 ==================================================
 2019-Jan-02
