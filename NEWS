@@ -1,6 +1,24 @@
 YRmisc package News:
 
 ==================================================
+YRmisc 0.1.5
+==================================================
+2019-May-15
+
+Happy One Year!
+
+New Functions:
+
+pt.mv: mean-variance model simulation
+pl.mv: plot mean-variance simulation result with ggplot2
+pt.roy: roy's safety-first criterion
+pt.bias: bias ratio
+pt.dbeta: dual-beta
+pt.dalpha: dual-alpha
+
+Text fixes and bug fixes
+
+==================================================
 YRmisc 0.1.4
 ==================================================
 2019-Apr-15

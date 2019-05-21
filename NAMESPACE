@@ -22,3 +22,4 @@
   importFrom("stats", "is.ts", "loess", "time", "ts.union")
   importFrom("utils", "installed.packages")
   importFrom("utils", "install.packages", "update.packages")
+  importFrom("stats", "cov")

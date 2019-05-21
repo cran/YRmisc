@@ -1,7 +1,7 @@
 Package: YRmisc
 Type: Package
 Title: Y&R Miscellaneous R Functions
-Version: 0.1.4
+Version: 0.1.5
 Author: Manuel Russon <RUSSONM@stjohns.edu>, Xuanhua (Peter) Yin <peteryin.sju@hotmail.com>
 Maintainer: Xuanhua (Peter) Yin <peteryin.sju@hotmail.com>
 Imports: robust, ggplot2, grid, gridExtra
@@ -11,6 +11,6 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-04-11 04:48:05 UTC; Peter Yin
+Packaged: 2019-05-21 20:09:58 UTC; PeterYin
 Repository: CRAN
-Date/Publication: 2019-04-11 05:36:52 UTC
+Date/Publication: 2019-05-21 20:30:03 UTC
