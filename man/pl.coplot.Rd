@@ -16,7 +16,7 @@ pl.coplot(x,y,z,varN)
 \item{varN}{:variable name of z}
 }
 \description{
-Generate 4 scatter plots of x and y divided by variable z, with a fitted line using a robust linear regression method.
+Generate 4 scatter plots of x and y divided by variable z, with a fitted line using a simple linear regression method.
 }
 \examples{
 pl.coplot(mtcars[,1], mtcars[,3], mtcars[,4], "hp")

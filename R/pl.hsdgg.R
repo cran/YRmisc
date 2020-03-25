@@ -7,7 +7,7 @@
 #' @aliases pl.hsdgg
 #' @title Plot histograms for a data frame with ggplot2
 #' @description Plotting histograms for a data frame with 4 per page, with titles and label numbers automatically generated.
-#' @param pl.hsdgg(x,l,bin)
+#' @usage  pl.hsdgg(x,l,bin)
 #' @param x :a data frame
 #' @param l :the beginning label number in the title (default set to 1)
 #' @param bin :bin width of the graph

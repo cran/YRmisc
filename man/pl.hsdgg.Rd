@@ -4,7 +4,7 @@
 \alias{pl.hsdgg}
 \title{Plot histograms for a data frame with ggplot2}
 \usage{
-pl.hsdgg(x, l = 1, bin = 30)
+pl.hsdgg(x,l,bin)
 }
 \arguments{
 \item{x}{:a data frame}

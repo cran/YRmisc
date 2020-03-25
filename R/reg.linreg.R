@@ -54,10 +54,10 @@ reg.linreg <- function(dataframe, dependent){
       SSR <- sum((fit$fitted.values - me)^2)
       SSTO <- sum((Y - me)^2)
 
-      rs[count] <- reg.r.squared(SSR,SSTO)
+      rs[count] <- reg.r.squared(SSR, SSTO)
 
       # adjusted r squared
-      ars[count] <- reg.adj.r.squared(rs,n,p)
+      ars[count] <- reg.adj.r.squared(rs[count],n,p)
 
       # degree of freedom
       dof[count] <- reg.dof(fit)
@@ -74,7 +74,6 @@ reg.linreg <- function(dataframe, dependent){
       # Durbin-Watcon
       dw[count] <- reg.dw(fit)
 
-
       #print(rs)
       #print(ars)
       #print(aic)
@@ -84,9 +83,10 @@ reg.linreg <- function(dataframe, dependent){
     }
 
 
-    result <- data.frame(reg.model(dff,dependent), ars, dof, std.err,aic, bic,dw)
+    result <- data.frame(reg.model(dff,dependent), rs, ars, dof, std.err,aic, bic,dw)
 
   }
 
   return(result)
 }
+

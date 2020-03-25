@@ -1,6 +1,17 @@
 YRmisc package News:
 
 ==================================================
+YRmisc 0.1.6
+==================================================
+2020-Mar-25
+
+Removed {robust} as dependent
+Removed pkg.save, pkg.install, xd.avt
+
+Fixed:
+reg.linreg: adjusted-r-squared calculation error
+
+==================================================
 YRmisc 0.1.5
 ==================================================
 2019-May-15

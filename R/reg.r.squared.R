@@ -22,7 +22,7 @@
 reg.r.squared <- function(SSR,SSTO){
 
 
-  return(SSR/SSTO)
+  return(SSR / SSTO)
 
 }
 

@@ -5,7 +5,7 @@
 #' @name pl.coplot
 #' @aliases pl.coplot
 #' @title Scatter plot of x and y divided by z
-#' @description Generate 4 scatter plots of x and y divided by variable z, with a fitted line using a robust linear regression method.
+#' @description Generate 4 scatter plots of x and y divided by variable z, with a fitted line using a simple linear regression method.
 #' @usage pl.coplot(x,y,z,varN)
 #' @param x :x-axis value
 #' @param y :y-axis value
@@ -28,7 +28,7 @@ pl.coplot <- function(x, y, z, varN){
 
     pdf <- plotdf[plotdf$cat == i,]
     plot(pdf$x, pdf$y, xlim = c(xlim1, xlim2), ylim = c(ylim1, ylim2)); title(varN)
-    abline(robust::lmRob(y ~ x, data = pdf))
+    abline(lm(y ~ x, data = pdf))
   }
 
 }
